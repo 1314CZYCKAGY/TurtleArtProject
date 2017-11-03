@@ -1,0 +1,61 @@
+#Hungry Snake design
+
+import turtle
+bob=turtle.Turtle()
+turtle.colormode(255)
+turtle.bgcolor()
+bob.speed(11)
+from projectfile import*
+bob.penup()
+bob.goto(-500,-400)
+bob.pendown()
+
+polygon(bob,3,80)
+bob.left(90)
+for times in range(10):
+    polygon(bob,4,80)
+    bob.forward(80)
+bob.right(90)
+for times in range(12):
+    polygon(bob,4,80)
+    bob.forward(80)
+bob.right(90)
+for times in range(10):
+    polygon(bob,4,80)
+    bob.forward(80)
+bob.right(90)
+for times in range(6):
+    polygon(bob,4,80)
+    bob.forward(80)
+bob.right(90)
+for times in range(3):
+    polygon(bob,4,80)
+    bob.forward(80)
+bob.left(18)
+polygon(bob,5,80)
+bob.right(18)
+bob.penup()
+bob.forward(70)
+bob.right(90)
+bob.forward(10)
+bob.pendown()
+
+bob.forward(15)
+bob.right(90)
+bob.forward(30)
+bob.right(90)
+bob.forward(15)
+bob.right(90)
+bob.forward(30)
+bob.right(90)
+bob.penup()
+bob.forward(45)
+bob.pendown()
+bob.forward(15)
+bob.right(90)
+bob.forward(30)
+bob.right(90)
+bob.forward(15)
+bob.right(90)
+bob.forward(30)
+bob.right(90)
